@@ -1,0 +1,99 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #10568d;
+}
+
+/*-----------HEADER STYLING------------*/
+
+#header {
+  margin-top: 70px;
+  background-color: black;
+  width:55%;
+  padding: 50px 40px 30px 40px;
+}
+#header span {
+  font-size:38px;
+  color:white;
+}
+
+#header #personal {
+  color: #df9231;
+}
+
+#header p {
+  color:white;
+  font-size: 24px;
+}
+
+/*-------------MAIN PART STYLING---------------*/
+
+#mainpart {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+/*-----------navigation bar styling---------*/
+
+#navbar {
+  width:30%;
+}
+
+#navbar ul li a {
+  color:white;
+  text-decoration: none;
+}
+
+#navbar ul li {
+  padding: 20px;
+  text-align:center;
+}
+
+#navbar h2 {
+  padding: 20px;
+  text-align: center;
+  color:white;
+  font-weight: lighter;
+}
+
+.button {
+  background-color: #032d4e;
+  border: none;
+  color: white;
+  padding: 6px;
+}
+
+/*-----------content styling------------*/
+
+#content {
+  width:70%;
+  background-color:white;
+  padding: 20px 20px 90px 40px;
+  line-height:1.6;
+  margin-right: 20px;
+}
+
+#content ul li {
+  list-style-type: none;
+  margin: 8px 30px;
+}
+
+#content h2,ul {
+  color: #10568d;
+}
+
+#content p {
+  margin-bottom: 10px;
+}
+
+/*-----------footer styling------------*/
+
+footer {
+  width:100%;
+  height: 200px;
+}

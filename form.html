@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="formcss.css">
+  <meta name="viewport" content="width=device-width">
+  <title>Form</title>
+</head>
+<body>
+  <div id="container">
+    <div id="navbar">
+      <img src="buttons.jpg" alt="radiobutton">
+    </div>
+    <div id="content">
+      <div id="form">
+        <h1>HTML Form</h1>
+        <p>Sign up to the newsletter form bellow to receive the latest news from our company.</p>
+      </div>
+      <div id="fields">
+        <div id="email">
+          <h4>Email</h4>
+          <input type="text" name="email" value="hello@conta">
+          <p>We will send you an email describing how to activate your newsletter subscription.</p>
+        </div>
+        <div id="name">
+          <h4>Name</h4>
+          <input type="text" name="FirstName" value="First" class="first-last-name">
+          <input type="text" name="LastName" value="Last" class="first-last-name">
+          <h4>Preffered newsletter format</h4>
+          <div class="radio-button">
+            <input type="radio" name="Text" value="Text" checked="checked" />
+            <p>Text</p>
+          </div>
+          <div class="radio-button">
+            <input type="radio" name="HTML" value="HTML" checked="checked" />
+            <p>HTML</p>
+          </div>
+        </div>
+        <hr>
+        <div id="submit">
+          <button type="submit" form="nameform" value="Submit">SUBMIT</button>
+          <span>or</span>
+          <a href="#">Clear and start from scratch</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
